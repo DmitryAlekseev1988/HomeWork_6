@@ -3,7 +3,7 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-int size = Input("Введите числа");
+int size = Input("Введите количество вводимых значений: ");
 int[] array;
 array = NewArray(size);
 PrintArray(array);
@@ -45,6 +45,6 @@ int CountPositiveNum(int[] array)
         {
             count++;
         }
-        return count;
     }
+    return count;
 }
